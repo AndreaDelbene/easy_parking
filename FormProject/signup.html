@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8"/>
+	<title>BossParking-SignUp</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css" />
+	<script src="js/script.js"></script>
+</head>
+<body>
+
+	<div class ="container">
+
+		<form action="index.html" method="post" name="signupForm" onsubmit="return checkPassword();"> 
+
+		
+		<div id = "menuNav">
+			<ul id = "menuList">
+				<li class = "menuItem" id = "menuHome"><a href="index.html">Home</a></li>
+				<li class = "menuItem" id = "menuContact"><a href="#contact">Contact</a></li>
+				<li class = "menuItem" id = "menuAbout"><a href="#about">About</a></li>
+				<li class = "menuItem" id = "buttonLogin"><a href="">Login</a>	</li>
+				<li class = "menuItem" id = "menuLogin">
+					<input type="email" id = "loginEmail" name="loginEmail" placeholder="Email">
+					<input type="password" id = "loginPassword" name="loginPassword" placeholder="Password">
+				</li>
+				<li class = "menuItem" id = "menuSignup"><a href="signup.html">Sign up</a></li>
+				
+
+			</ul>	
+		</div>
+
+		<div id = "signupContent">	
+			<div><input type="text" id = "signupFirstName" name="signupFirstName" placeholder="First name"></div>
+			<div><input type="text" id = "signupLastName" name="signupLastName" placeholder="Last name"></div>
+			<div><input type="email" id = "signupEmail" name="signupEmail" placeholder="Email"></div>
+			<div><input type="password" id = "signupPassword" name="signupPassword" placeholder="Password"></div>
+			<div><input type="password" id = "signupRepeatPW" name="signupRepeatPW" placeholder="Repeat password"></div>
+			<input type="submit" id = "signupSubmit" name="signupSubmit" value = "Send" >
+			<input type="reset" id = "signupReset" name="signupReset" value = "Reset">		
+		</div>
+	</div>
+
+
+
+</form>
+
+</body>
+</html>

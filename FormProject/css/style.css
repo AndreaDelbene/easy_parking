@@ -1,0 +1,73 @@
+html {
+}
+
+body{
+	background-image: url("../img/background.png");
+	background-color: none;
+	margin: 0;
+}
+
+.container {
+	margin-left: 0;
+	margin-right: 0;	
+	background-color: none;
+	width: 100%;
+	height: 100%;
+}
+
+.signupText {
+}
+
+#menuList {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #7e7e7e;
+}
+
+.menuItem {
+    display: inline-block;
+    font-family: "ar essence";
+}
+
+.menuItem a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.menuItem a:hover {
+    background-color: #5e5e5e;
+}
+
+#menuSignup {
+	float: right;
+}
+
+#buttonLogin {
+	float: right;
+	margin-right: 1%;
+}
+
+#menuAbout {
+}
+
+#menuHome {
+	background-color: #ff5c1f;
+}
+
+#menuHome a:hover {
+	background-color: #ff4500;
+}
+
+#loginEmail, #loginPassword {
+	margin-top: 15px;
+}
+
+#menuLogin {
+	float: right;
+	margin-right: 1%;
+}
